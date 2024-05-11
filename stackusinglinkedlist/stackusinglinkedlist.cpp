@@ -26,6 +26,7 @@ public:
 	{
 		Node* newNode = new Node();
 		newNode->data = value;
+		newNode->next = top;
 	}
 };
 
