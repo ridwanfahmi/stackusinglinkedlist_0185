@@ -15,7 +15,8 @@ public:
 
 class stack
 {
-
+private:
+	Node* top;
 };
 
 int main() {
